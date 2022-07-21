@@ -2,16 +2,18 @@
   "dependencies": {
     "cypress": "^10.3.0"
   },
-
   "name": "projeto-CRUD-Api",
   "version": "1.0.0",
   "description": "Testes de CRUD em API",
   "main": "e2e.js",
-
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:ci": "cypress run",
     "cypress:chrome": "cypress run --browser chrome",
     "cypress:firefox": "cypress run --browser firefox"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "mochawesome-merge": "^4.2.1"
   }
 }
