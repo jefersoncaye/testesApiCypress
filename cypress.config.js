@@ -12,7 +12,7 @@ module.exports = defineConfig({
       json: false,
       html: true,
       //timestamp: 'dd-mm-yyyy_(HH-MM)',
-      reportFilename: "report",
+      reportFilename: "[name]",
     }
   },
 });
