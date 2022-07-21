@@ -11,8 +11,8 @@ module.exports = defineConfig({
       overwrite: false,
       json: false,
       html: true,
-      timestamp: 'dd-mm-yyyy_(HH-MM)',
-      reportFilename: "[status]-[datetime]-[name]",
+      //timestamp: 'dd-mm-yyyy_(HH-MM)',
+      reportFilename: "report",
     }
   },
 });
